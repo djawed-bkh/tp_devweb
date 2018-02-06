@@ -1,0 +1,29 @@
+header{
+    background-image: url(images/headerimg.jpg);
+    
+    text-align: center;
+}
+#un{
+    font-size: 150%;
+    line-height:170%;
+    column-width: 100%;
+   background-color:chocolate;
+   word-spacing: 20px;
+   text-align: justify
+    }
+    #deux{
+        text-align:left;
+    }
+    #navi{
+        text-align: center;
+    }
+    body{ background-image:url(images/31bg.jpg);
+    }
+   #sec{
+    font-size: 150%;
+        line-height: 40px;
+    column-width: 100%;
+    }
+    #texte{
+        text-align: justify;
+    }
