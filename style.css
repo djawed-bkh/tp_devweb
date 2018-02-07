@@ -1,29 +1,83 @@
+body{
+    background-image: url(images/31bg.jpg)
+}
 header{
     background-image: url(images/headerimg.jpg);
-    
+    background-repeat: no-repeat;
+    background-size:100%; 
     text-align: center;
 }
-#un{
-    font-size: 150%;
-    line-height:170%;
-    column-width: 100%;
-   background-color:chocolate;
-   word-spacing: 20px;
-   text-align: justify
-    }
-    #deux{
-        text-align:left;
-    }
-    #navi{
-        text-align: center;
-    }
-    body{ background-image:url(images/31bg.jpg);
-    }
-   #sec{
-    font-size: 150%;
-        line-height: 40px;
-    column-width: 100%;
-    }
-    #texte{
-        text-align: justify;
-    }
+nav ul{
+    list-style-type: none;
+    margin: 0cm;
+    padding: 0px 0px 0px 20%;
+    overflow: hidden;
+    background-color:#694C46 
+}
+nav li{
+    color: white;
+    float: left;
+}
+nav li a{
+    color: white;
+    text-decoration:none;
+    display: block;
+    padding: 16px;
+    text-align: center;
+}
+nav li a:hover{
+    background-color: rgb(149, 89, 10);
+    
+}
+  
+article {
+    width: 700px;
+    float: right;
+    
+}
+#article1{
+    margin-top:-15cm;
+    margin-left:10%
+}
+#article2{
+    margin-top:-3cm;
+}
+article h3{
+    color: blue;
+}
+article img{
+    float: left;
+    box-shadow: 2px 3px #694C46;
+    margin-right: 15px;
+	 margin-bottom: 15px;
+}
+footer{
+    background-color: #694C46;
+    color: white;
+    font-weight: bold;
+    float: left;
+    overflow: hidden;
+    margin: 0%;
+   
+}
+footer ul{
+    color: white;
+    list-style-type:none;
+    padding-left: 9px;
+}
+footer li a{
+    color: white
+}
+footer #amis{
+color: white
+}
+footer #stuff{
+
+}
+footer #coolness{
+
+}
+footer #blabla{
+
+}
+
