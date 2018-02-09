@@ -6,7 +6,7 @@ body{
 main{
     background-image: url(images/31bg.jpg);
     width: 980px;
-    height: 980px;
+    height: 1100px;
 	margin-left: auto;
 	margin-top: auto;
     margin-right: auto;
@@ -46,26 +46,24 @@ nav li a:hover{
 #deux{
     margin-top: 1cm;
     color: #694C46;
-   
 
 }
 #deux a{
 line-height: 1.5;
 font-size: 130%;
 margin-left: 6px
-}
-  
+} 
 article {
     width: 700px;
     float: right;
     
 }
 #article1{
-    margin-top:-18cm;
+    margin-top:-22cm;
     margin-left:10%
 }
 #article2{
-    margin-top:-6cm;
+    margin-top:-9cm;
 }
 article h1{
     font-size: 190%;
@@ -92,12 +90,14 @@ footer{
     margin-right: auto;
     text-align: justify;
     padding-left:19.5px;
+    padding-bottom:auto;
     background-color: #694C46;
    
         
     }
     footer ul{
         height: 100%; 
+        
     }
     footer li{
         list-style-type: none;
